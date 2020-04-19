@@ -1,0 +1,14 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--colorPrimary) 0%, var(--colorSecondary) 60%);
+    transition: --colorPrimary 0.7s ease, --colorSecondary 0.7s ease;
+}
+
+.background:hover {
+    --colorPrimary: rgba(34,193,195,1);
+    --colorSecondary: rgba(253,187,45,1);
+}  
