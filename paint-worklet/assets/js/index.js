@@ -1,4 +1,4 @@
-CSS.paintWorklet.addModule('https://raw.githubusercontent.com/benoitdelorme/houdini-sample/master/paint-worklet/js/generative-bubble.js')
+CSS.paintWorklet.addModule('./assets/js/generative-bubble.js')
 
 CSS.registerProperty({
     name: '--color-1',
